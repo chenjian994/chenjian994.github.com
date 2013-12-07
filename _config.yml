@@ -1,15 +1,15 @@
-baseurl: /chenjian994.github.com
+
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 # 分页配置，每页最多显示几篇文章
-paginate: 4
+paginate: 5
 
 # 修改为自己的配置
-title : 不乱于心，不困于情。
-tagline: 不念过去，不畏将来。
+title : 不乱于心，不困于情。不念过去，不畏将来。
+tagline: 不乱于心，不困于情。不念过去，不畏将来。
 author :
   name : chen
   email : cj520025@gmail.com
