@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 第一篇文章
-keywords: 第一篇文章
+title: Hello world
+keywords: Hello world
 description: 傲游浏览器浏览人人网主页超级拖放功能失效
 categories: [其他]
 tags: [其他]
@@ -11,4 +11,4 @@ icon: globe
 {% include codepiano/setup %}
 
 
-终于把博客给搭建好了，先发表第一篇文章吧。
+'Hello world!'
