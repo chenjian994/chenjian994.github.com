@@ -10,6 +10,5 @@ icon: globe
 ---
 {% include codepiano/setup %}
 
-<p class="paragraph">
+
 终于把博客给搭建好了，先发表第一篇文章吧。
-</p>
