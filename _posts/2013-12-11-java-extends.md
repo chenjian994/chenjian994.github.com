@@ -27,8 +27,8 @@ icon: globe
 	}
 	```
 
-猜猜看会输出什么结果？
+让我们来看看输出结果吧：
 
-输出：`Child`
+`Child`
 
 我想不通为什么会是输出Child呢？明明是在Parent中调用的`getClass().getName()`方法嘛，应该输出`Parent`撒，主要是没搞清继承初始化的问题，我的想法：在构造Child对象的时候会使用Parent类的构造函数来构造Child类中从Parent继承的属性、方法等。所以其实当前类还是Child而不是Parent。其实我说的都是废话，因为我明明是new的Child类，当然应该是输出Child了。哈哈！
