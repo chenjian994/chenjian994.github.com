@@ -13,7 +13,8 @@ icon: globe
 前几天创建了一个Hibernate DAO的泛型 DAO 类和接口，其中使用到了`getClass()`方法。好嘛！我用得不明不白的，今天被小伙伴一问，瞬间就尴尬了，上网去科普了下。至于`getClass()`方法是用来做什么的，也许我也说不清楚，自己去看Java API吧，大概就是获取当前类的Class类型。主要卡在类继承时构造函数初始化上面。
 
 代码：
-   
+    
+	```java
 	public class Parent {
 		public Parent() {
 			System.out.println(getClass().getName());
@@ -24,6 +25,7 @@ icon: globe
 			new Child();
 		}	
 	}
+	```
 
 猜猜看会输出什么结果？
 
